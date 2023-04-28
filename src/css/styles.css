@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -7,7 +8,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color:darkgrey ;
   color: #212121;
   line-height: 1.5;
 }
@@ -17,4 +18,18 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+h1 {
+  color: antiquewhite;
+  text-align: center;
+}
+
+input {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  border-radius: 5px;
+  border-color: bisque;
+  text-align: center;
 }
